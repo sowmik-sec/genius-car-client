@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import img from "../../assets/images/login/login.svg";
 
 const Login = () => {
@@ -11,7 +12,7 @@ const Login = () => {
         <div className="text-center lg:text-left">
           <img className="w-3/4" src={img} alt="" />
         </div>
-        <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+        <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100 py-14">
           <h1 className="text-5xl font-bold text-center">Login</h1>
           <form onSubmit={handleLogin} className="card-body">
             <div className="form-control">
@@ -43,6 +44,12 @@ const Login = () => {
               <input className="btn btn-primary" type="submit" value="Login" />
             </div>
           </form>
+          <p className="text-center mb-3">
+            New to Genius Car{" "}
+            <Link className="text-orange-600 font-bold" to="/signup">
+              Sign Up
+            </Link>
+          </p>
         </div>
       </div>
     </div>
