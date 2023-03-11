@@ -2,8 +2,8 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="md:flex py-14 md:justify-evenly items-center bg-black text-white md:my-10  rounded-xl">
-      <div className="flex sm:my-5 md:my-0">
+    <div className="flex md:flex-row flex-col py-14 md:justify-evenly items-center bg-black text-white md:my-10  rounded-xl">
+      <div className="flex sm:my-5 md:my-0  md:mx-0 mx-auto">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
