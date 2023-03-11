@@ -4,7 +4,7 @@ import { FaStar } from "react-icons/fa";
 const Product = ({ product }) => {
   const { name, price, img } = product;
   return (
-    <div className="card w-96 bg-base-100 shadow-xl p-5">
+    <div className="card w-96 bg-base-100 shadow-xl p-5  md:mx-0 mx-auto">
       <figure className="w-[314px] h-[215px] mx-auto bg-slate-100">
         <img height={146} width={146} src={img} alt="" />
       </figure>

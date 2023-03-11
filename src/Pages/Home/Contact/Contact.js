@@ -2,8 +2,8 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="flex py-14 justify-evenly bg-black text-white my-10 rounded-xl">
-      <div className="flex">
+    <div className="md:flex py-14 md:justify-evenly items-center bg-black text-white md:my-10  rounded-xl">
+      <div className="flex sm:my-5 md:my-0">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -23,7 +23,7 @@ const Contact = () => {
           <h3 className="text-2xl">7:00 am - 9:00 pm</h3>
         </div>
       </div>
-      <div className="flex">
+      <div className="flex sm:my-5 md:my-0">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -43,7 +43,7 @@ const Contact = () => {
           <h3 className="text-2xl">+254642343216</h3>
         </div>
       </div>
-      <div className="flex">
+      <div className="flex sm:my-5 md:my-0">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
