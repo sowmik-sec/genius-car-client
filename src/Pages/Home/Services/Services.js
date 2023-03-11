@@ -9,7 +9,7 @@ const Services = () => {
       .then((data) => setServices(data));
   }, []);
   return (
-    <div>
+    <div className="my-14">
       <div className="text-center mb-4">
         <p className="text-2xl font-bold text-orange-600">Services</p>
         <div className="text-5xl font-semibold">Our Service Area</div>
@@ -22,6 +22,11 @@ const Services = () => {
         {services.map((service) => (
           <ServiceCard key={service._id} service={service} />
         ))}
+      </div>
+      <div className="text-center my-8">
+        <button className="btn btn-outline btn-warning text-orange-600">
+          More Services
+        </button>
       </div>
     </div>
   );
