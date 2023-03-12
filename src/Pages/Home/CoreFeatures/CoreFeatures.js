@@ -19,7 +19,7 @@ const CoreFeatures = () => {
           humour, or randomised words which don't look even slightly believable.{" "}
         </p>
       </div>
-      <div className="flex justify-evenly my-10">
+      <div className="md:flex md:justify-evenly my-10">
         <div className="p-3 border-2 rounded-lg flex flex-col items-center">
           <FaUsers className="w-8 h-8" />
           <p className="text-lg font-bold">Expert Team</p>
