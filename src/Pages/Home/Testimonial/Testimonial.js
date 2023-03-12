@@ -14,7 +14,7 @@ const Testimonial = () => {
       </div>
       <div className="relative">
         <div className="md:flex md:justify-between">
-          <div className="p-10 border-2 w-1/2 h-auto">
+          <div className="p-10 border-2 md:w-1/2 h-auto">
             <div className="flex justify-between">
               <div className="flex">
                 <img
@@ -38,7 +38,7 @@ const Testimonial = () => {
               slightly believable.{" "}
             </p>
           </div>
-          <div className="p-10 border-2 w-1/2 h-auto">
+          <div className="p-10 border-2 md:w-1/2 h-auto">
             <div className="flex justify-between">
               <div className="flex">
                 <img
