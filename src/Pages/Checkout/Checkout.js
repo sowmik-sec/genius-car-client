@@ -1,7 +1,10 @@
 import React from "react";
+import { useLoaderData } from "react-router-dom";
 
 const Checkout = () => {
-  return <div>checkout</div>;
+  const service = useLoaderData();
+  const { title } = service;
+  return <div>{title}</div>;
 };
 
 export default Checkout;
