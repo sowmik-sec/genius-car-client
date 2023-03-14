@@ -28,6 +28,7 @@ const Checkout = () => {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
+        authorization: `Bearer ${localStorage.getItem("genius-token")}`,
       },
       body: JSON.stringify(order),
     })
