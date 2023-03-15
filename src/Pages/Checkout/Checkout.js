@@ -24,7 +24,7 @@ const Checkout = () => {
     // if(phone.length>10) {
     //     alert('Phone number should be 10 characters or longer');
     // }
-    fetch("http://localhost:5000/orders", {
+    fetch("https://genius-car-server-sepia-ten.vercel.app/orders", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
